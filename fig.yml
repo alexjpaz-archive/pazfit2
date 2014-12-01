@@ -1,0 +1,22 @@
+services:
+    image: alexjpaz/pazfit2-services
+    links: 
+        - db
+    ports:
+        - "5000:5000"
+    environment:
+      - MONGO_HOST=db
+
+web:
+    image: alexjpaz/pazfit2-ui-web
+    links: 
+        - services
+    ports:
+        - "9001:9001"
+    environment:
+        - PAZFIT2_SERVICES_HOST=services
+
+db:
+    image: dockerfile/mongodb
+    ports: 
+        - "27017:27017"
