@@ -1,7 +1,9 @@
 ## PazFit2
 
 ### (Yet Another) Personal fitness tracking website
+
 [Services](https://github.com/alexjpaz/pazfit2-services)
+
 [Web Interface](https://github.com/alexjpaz/pazfit2-ui-web)
 
 
