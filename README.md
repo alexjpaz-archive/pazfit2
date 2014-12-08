@@ -15,4 +15,4 @@
 * Docker
 
 #### Other resources
-[DEMO](http://ajpaz531.appspot.com)
+[DEMO](http://micro.do.alexjpaz.com:9001)
