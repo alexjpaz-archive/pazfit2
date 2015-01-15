@@ -9,6 +9,8 @@
 
 #### Built-with
 * Python
+* [Python Eve](http://python-eve.org/)
+* MongoDB
 * NodeJs
 * Bootstrap 3.0
 * AngularJs 1.2.6
